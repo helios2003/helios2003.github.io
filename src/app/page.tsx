@@ -131,7 +131,7 @@ export default function Page() {
                     {work.title}
                   </h4>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs print:text-[10px]">
+                <CardContent className="mt-2 text-xs print:text-[10px] whitespace-pre-wrap">
                   {work.description}
                 </CardContent>
               </Card>
@@ -161,15 +161,18 @@ export default function Page() {
           })}
         </Section>
         <Section>
-          <h2 className="text-xl font-bold">Skills</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.skills.map((skill) => {
-              return (
-                <Badge className="print:text-[10px]" key={skill}>
-                  {skill}
-                </Badge>
-              );
-            })}
+            <h1 className="text-xl font-bold">Technical Skills</h1>
+          <div className="flex flex-col gap-2">
+            {RESUME_DATA.skills.map(([type, skillList]) => (
+              <div key={type} className="flex flex-wrap items-center gap-2">
+                <span className="font-semibold mr-2">{type}:</span>
+                {skillList.map((skill) => (
+                  <Badge className="print:text-[10px]" key={skill}>
+                    {skill}
+                  </Badge>
+                ))}
+              </div>
+            ))}
           </div>
         </Section>
 
@@ -189,7 +192,32 @@ export default function Page() {
             })}
           </div>
         </Section>
+
+        <Section className="print-force-new-page scroll-mb-16">
+          <h2 className="text-xl font-bold">Publications / Blogs</h2>
+          <div>
+            {RESUME_DATA.blogs.map((project) => {
+              return (
+                <Card key={project.title}>
+                  <CardHeader>
+                    <div className="items-center justify-between gap-x-2 text-base">
+                      <h3 className="font-semibold leading-none target=_blank hover:underline">
+                        <a href={project.link.href}>
+                          {project.title}
+                        </a>
+                      </h3>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="mt-2 print:text-[12px]">
+                    {project.description}
+                  </CardContent>
+                </Card>
+              );
+            })}
+          </div>
+        </Section>
       </section>
+
 
       <CommandMenu
         links={[

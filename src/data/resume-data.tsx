@@ -20,122 +20,95 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about:
-    "Detail-oriented Full Stack Engineer dedicated to building high-quality products.",
-  summary:
-    "As a Full Stack Engineer, I specialize in taking products from concept to launch. I excel in leading teams and creating environments where individuals perform at their best. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience working remotely with companies worldwide.",
+  name: "Ankit Dash",
+  initials: "AD",
+  location: "Mumbai, Maharashtra, India",
+  locationLink: "https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0822507,72.8811862,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?entry=ttu",
+  about: "Software Engineer working in web development and Gen AI",
+  summary: "Hello, I am Ankit, currently in my final year of undergraduate studies at NIT Karnataka. I have a strong interest in developing scalable backend systems and have experience in creating full-stack applications. I have also worked with Machine Learning, particularly in Natural Language Processing and Generative AI. Presently, my interests include Computer Networking, DevOps, and Distributed Systems. I am always seeking new and exciting opportunities to advance my skills and contribute to innovative projects.",
   avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
+    email: "ankitdash2019[at]gmail[dot]com",
     tel: "+48530213401",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/helios2003",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/ankitdash/",
         icon: LinkedInIcon,
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/_Ankit_Dash_",
         icon: XIcon,
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "National Institute of Technology Karnataka (Surathkal)",
+      degree: "Bachelor of Technology in Computer Science and Engineering",
+      start: "Dec 2021",
+      end: "May 2025",
     },
   ],
   work: [
     {
-      company: "Film.io",
-      link: "https://film.io",
-      badges: ["Remote"],
-      title: "Software Architect",
-      logo: ConsultlyLogo,
-      start: "2024",
-      end: null,
-      description:
-        "Leading the development of the Film.io platform. Technologies: React, TypeScript, Node.js",
-    },
-    {
-      company: "Parabol",
-      link: "https://parabol.co",
-      badges: ["Remote"],
-      title: "Senior Full Stack Developer",
-      logo: ParabolLogo,
-      start: "2021",
-      end: "2024",
-      description:
-        "Implemented new features, led a squad, improved code delivery process, and initiated migration from Emotion to Tailwind CSS. Technologies: React, TypeScript, GraphQL",
-    },
-    {
-      company: "Clevertech",
-      link: "https://clevertech.biz",
-      badges: ["Remote"],
-      title: "Lead Android Developer → Full Stack Developer",
+      company: "Google Summer of Code - Postman",
+      link: "https://summerofcode.withgoogle.com/programs/2024/projects/AJcg3hZ5",
+      badges: ["Barcelona, Spain (Remote)"],
+      title: "Open Source Developer",
       logo: ClevertechLogo,
-      start: "2015",
-      end: "2021",
+      start: "Jun 2024",
+      end: "Present",
       description:
-        "Created Android mobile apps and led teams for companies like Vision Media, DKMS, and AAA. Built a live streaming application for Evercast from scratch. Technologies: Android, Kotlin, React, TypeScript, GraphQL",
+      "• Automated generation of custom Open Graph images and tags for AsyncAPI studio enhancing user experience. \n• Utilized Netlify’s edge runtime and CDNs to achieve sub 5 second latency for Open Graph crawlers.\n• Merged more than 10 pull requests and committed more than 1000 lines of code to production."
     },
     {
-      company: "Jojo Mobile",
-      link: "https://bsgroup.eu/",
-      badges: [],
-      title: "Android Developer → Lead Android Developer",
+      company: "MACS-G Solutions",
+      link: "https://www.macs-g.com",
+      badges: ["Dubai, UAE (Remote)"],
+      title: "Full Stack Developer",
       logo: JojoMobileLogo,
-      start: "2012",
-      end: "2015",
-      description:
-        "Led the Android team and developed apps for major Polish companies like LOT, Polskie Radio, Agora, and PolskaPress",
+      start: "Mar 2024",
+      end: "Present",
+      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Finetuned Retina-Net model which provides 95% accuracy using 90% lesser training samples compared to other models and created a ML pipeline for batch processing the data."
     },
     {
-      company: "Nokia Siemens Networks",
-      link: "https://www.nokia.com",
-      badges: [],
-      title: "C/C++ Developer",
+      company: "Turing Bell",
+      link: "https://www.linkedin.com/posts/yash-tak-20881b103_b2b-saas-generative-ai-activity-7095391947791495169-I7eI/",
+      badges: ['Bangalore, India (Remote)'],
+      title: "Artificial Intelligence Intern",
       logo: NSNLogo,
-      start: "2010",
-      end: "2012",
-      description: "Developed and tested software for LTE base stations",
+      start: "Sep 2023",
+      end: "Oct 2023",
+      description: "• Facilitated the development of the conversation summarization module utilizing the GPT-3.5 and Langchain, aiding in evaluating the efficacy of the AI Sales Assistant and improving response accuracy for user queries. \n• Contributed to the frontend by building the website’s navigation system in React."
     },
   ],
+
   skills: [
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js/Remix",
-    "Node.js",
-    "GraphQL",
-    "Relay",
-    "WebRTC",
+    ["Languages",  ["Javascript", "Typescript", "Go", "Python", "C++", "C"]],
+    ["Frameworks", ["NextJS", "React", "Node.js", "Express", "Flask", "FastAPI", "Tensorflow"]],
+    ["Databases", ["PostgreSQL", "MongoDB", "Redis", "MySQL"]],
+    ["Tools", ["Git", "Docker", "Kafka"]],
   ],
   projects: [
     {
-      title: "Parabol",
+      title: "Nebula-Nest",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
         "Node.js",
-        "GraphQL",
+        "PostgreSQL",
+        "AWS S3",
+        "RabbitMQ",
+        "Docker",
       ],
       description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
+        "Platform as a Service (PaaS) system that deploys front-end apps from a GitHub URL in under 10 minutes",
       logo: ParabolLogo,
       link: {
         label: "github.com",
@@ -143,16 +116,12 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Evercast",
+      title: "Andromeda",
       techStack: [
-        "Lead Frontend Developer",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
+        "Python", "NLTK", "MERN stack", "Docker"
       ],
       description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
+        "A multithreaded search engine that efficiently indexes and retrieves documents using an inverted index and BM-25 algorithm in MongoDB",
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
@@ -160,16 +129,11 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Consultly",
+      title: "Epidemiology",
       techStack: [
-        "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Vite",
-        "GraphQL",
-        "WebRTC",
+        "Python", "Pandas", "networkx"
       ],
-      description: "A platform to build and grow your online business",
+      description: "Simulating disease outbreak using models like SIARD and comparing the effectiveness of different vaccination strategies",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -177,32 +141,21 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
+      title: "Twitter Feed Filter",
+      techStack: ["Python", "Go", "bs4"],
       description:
-        "Browser extension that records everything happening in a web application",
+        "Twitter Feed Filtering System for improved relevance and reduction of irrelevant tweets using unsupervised NLP Techniques",
       logo: MonitoLogo,
       link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
+        label: "twitter feed filter",
+        href: "https://github.com/helios2003/Twitter-Feed-Filter",
       },
     },
     {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
+      title: "Word Rush",
+      techStack: ["MERN Stack", "Websockets"],
       description:
-        "Personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers, and planners generator",
+        "A real-time multiplayer Wordle like game where players compete to guess a hidden word within a limited number of attempts",
       logo: Minimal,
       link: {
         label: "useminimal.com",
@@ -210,78 +163,24 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
+      title: "Dino Game",
+      techStack: ["Pygame", "Python", "OOPS"],
       description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
+        "A replica of Chrome's Dinosaur Game using Pygame which can be played in the browser",
+      logo: JarockiMeLogo,
       link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
+        label: "github.com",
+        href: "https://jarocki.me/",
       },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description: "Howdy is a place for joining communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
+  blogs: [
+    {
+      title: "Hierarchical Navigable Small Worlds Algorithm (HNSW)",
+      link: {
+        href: "https://ankitdash.hashnode.dev/hierarchical-navigable-small-worlds-algorithm-hnsw"
+      },
+      description: "Working of different types of similarity algorithms and implementation of HNSW using skip lists and covering it's use cases, advantages and disadvantages."
+    }
+  ]
 } as const;
