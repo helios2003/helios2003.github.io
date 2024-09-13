@@ -14,8 +14,6 @@ import {
   MonitoLogo,
   NSNLogo,
   ParabolLogo,
-  TastyCloudLogo,
-  YearProgressLogo,
 } from "@/images/logos";
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
@@ -26,8 +24,8 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0822507,72.8811862,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?entry=ttu",
   about: "Software Engineer working in web development and Gen AI",
   summary: "Hello, I am Ankit, currently in my final year of undergraduate studies at NIT Karnataka. I have a strong interest in developing scalable backend systems and have experience in creating full-stack applications. I have also worked with Machine Learning, particularly in Natural Language Processing and Generative AI. Presently, my interests include Computer Networking, DevOps, and Distributed Systems. I am always seeking new and exciting opportunities to advance my skills and contribute to innovative projects.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  //avatarUrl: "me.jpg",
+  personalWebsiteUrl: "",
   contact: {
     email: "ankitdash2019[at]gmail[dot]com",
     tel: "+48530213401",
@@ -59,17 +57,6 @@ export const RESUME_DATA = {
   ],
   work: [
     {
-      company: "Google Summer of Code - Postman",
-      link: "https://summerofcode.withgoogle.com/programs/2024/projects/AJcg3hZ5",
-      badges: ["Barcelona, Spain (Remote)"],
-      title: "Open Source Developer",
-      logo: ClevertechLogo,
-      start: "Jun 2024",
-      end: "Present",
-      description:
-      "• Automated generation of custom Open Graph images and tags for AsyncAPI studio enhancing user experience. \n• Utilized Netlify’s edge runtime and CDNs to achieve sub 5 second latency for Open Graph crawlers.\n• Merged more than 10 pull requests and committed more than 1000 lines of code to production."
-    },
-    {
       company: "MACS-G Solutions",
       link: "https://www.macs-g.com",
       badges: ["Dubai, UAE (Remote)"],
@@ -77,7 +64,18 @@ export const RESUME_DATA = {
       logo: JojoMobileLogo,
       start: "Mar 2024",
       end: "Present",
-      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Finetuned Retina-Net model which provides 95% accuracy using 90% lesser training samples compared to other models and created a ML pipeline for batch processing the data."
+      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Finetuned Retina-Net model which provides 95% accuracy using 90% lesser training samples compared to other models and created a ML pipeline for batch processing the data. \n• Helped in building a mechanism where the user can upload, annotate, train and infer directly from the browser. \n• Tech Stack: FastAPI, React, AWS, MongoDB."
+    },
+    {
+      company: "Google Summer of Code - Postman",
+      link: "https://summerofcode.withgoogle.com/programs/2024/projects/AJcg3hZ5",
+      badges: ["Barcelona, Spain (Remote)"],
+      title: "Open Source Developer",
+      logo: ClevertechLogo,
+      start: "Jun 2024",
+      end: "Sep 2024",
+      description:
+      "• Automated generation of custom Open Graph images and tags for AsyncAPI studio enhancing user experience. \n• Utilized SSR, Edge runtime and CDNs to achieve sub 5 second latency for Open Graph crawlers.\n• Wrote unit tests for the feature added and made fixes to the testing pipeline of the repository. \n• Merged more than 10 pull requests and committed more than 1000 lines of code to production.\n• Tech Stack: NextJS, AsyncAPI, Vercel, Jest."
     },
     {
       company: "Turing Bell",
@@ -87,7 +85,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "Sep 2023",
       end: "Oct 2023",
-      description: "• Facilitated the development of the conversation summarization module utilizing the GPT-3.5 and Langchain, aiding in evaluating the efficacy of the AI Sales Assistant and improving response accuracy for user queries. \n• Contributed to the frontend by building the website’s navigation system in React."
+      description: "• Facilitated the development of the conversation summarization module utilizing the GPT-3.5 and Langchain, aiding in evaluating the efficacy of the AI Sales Assistant and improving response accuracy for user queries. \n• Contributed to the frontend by building the website’s navigation system in React.\n• Tech Stack: Langchain (Python), React."
     },
   ],
 
@@ -95,7 +93,7 @@ export const RESUME_DATA = {
     ["Languages",  ["Javascript", "Typescript", "Go", "Python", "C++", "C"]],
     ["Frameworks", ["NextJS", "React", "Node.js", "Express", "Flask", "FastAPI", "Tensorflow"]],
     ["Databases", ["PostgreSQL", "MongoDB", "Redis", "MySQL"]],
-    ["Tools", ["Git", "Docker", "Kafka"]],
+    ["Tools", ["Git", "Docker", "Kubernetes", "Kafka"]],
   ],
   projects: [
     {
