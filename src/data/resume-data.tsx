@@ -24,8 +24,8 @@ export const RESUME_DATA = {
   locationLink: "https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0822507,72.8811862,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?entry=ttu",
   about: "Software Engineer working in web development and Gen AI",
   summary: "Hello, I am Ankit, currently in my final year of undergraduate studies at NIT Karnataka. I have a strong interest in developing scalable backend systems and have experience in creating full-stack applications. I have also worked with Machine Learning, particularly in Natural Language Processing and Generative AI. Presently, my interests include Computer Networking, DevOps, and Distributed Systems. I am always seeking new and exciting opportunities to advance my skills and contribute to innovative projects.",
-  //avatarUrl: "me.jpg",
-  personalWebsiteUrl: "",
+  avatarUrl: "/me.jpg",
+  personalWebsiteUrl: ".",
   contact: {
     email: "ankitdash2019[at]gmail[dot]com",
     tel: "+48530213401",
