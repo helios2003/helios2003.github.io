@@ -113,7 +113,7 @@ export default function Page() {
                       <span className="inline-flex gap-x-1">
                         {work.badges.map((badge) => (
                           <Badge
-                            variant="secondary"
+                            variant="outline"
                             className="align-middle text-xs print:text-[8px] print:leading-tight print:px-1 print:py-0.5"
                             key={badge}
                           >
