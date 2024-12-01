@@ -22,9 +22,9 @@ export const RESUME_DATA = {
   initials: "AD",
   location: "Mumbai, Maharashtra, India",
   locationLink: "https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0822507,72.8811862,11z/data=!3m1!4b1!4m6!3m5!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559!16zL20vMDR2bXA?entry=ttu",
-  about: "Software Engineer working in web development and Gen AI",
+  about: "Software Engineer working in Web Development, Gen AI",
   summary: "Hello, I am Ankit, currently in my final year of undergraduate studies at NIT Karnataka. I have a strong interest in developing scalable backend systems and have experience in creating full-stack applications. I have also worked with Machine Learning, particularly in Natural Language Processing and Generative AI. Presently, my interests include Computer Networking, DevOps, and Distributed Systems. I am always seeking new and exciting opportunities to advance my skills and contribute to innovative projects.",
-  avatarUrl: "/me.jpg",
+  avatarUrl: "/ankit-1.jpg",
   personalWebsiteUrl: ".",
   contact: {
     email: "ankitdash2019[at]gmail[dot]com",
@@ -93,7 +93,7 @@ export const RESUME_DATA = {
     ["Languages",  ["Javascript", "Typescript", "Go", "Python", "C++", "C"]],
     ["Frameworks", ["NextJS", "React", "Node.js", "Express", "Flask", "FastAPI", "Tensorflow"]],
     ["Databases", ["PostgreSQL", "MongoDB", "Redis", "MySQL"]],
-    ["Tools", ["Git", "Docker", "Kubernetes", "Kafka"]],
+    ["Tools", ["Git", "Docker", "Kubernetes", "Kafka", "RabbitMQ", "Jupyter Notebook"]],
   ],
   projects: [
     {
@@ -110,7 +110,7 @@ export const RESUME_DATA = {
       logo: ParabolLogo,
       link: {
         label: "github.com",
-        href: "https://parabol.co/",
+        href: "https://github.com/helios2003/Nebula-Nest",
       },
     },
     {
@@ -123,7 +123,7 @@ export const RESUME_DATA = {
       logo: EvercastLogo,
       link: {
         label: "evercast.us",
-        href: "https://www.evercast.us/",
+        href: "https://github.com/helios2003/Andromeda",
       },
     },
     {
@@ -135,7 +135,7 @@ export const RESUME_DATA = {
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
-        href: "https://consultly.com/",
+        href: "https://github.com/helios2003/Epidemiology",
       },
     },
     {
@@ -157,7 +157,29 @@ export const RESUME_DATA = {
       logo: Minimal,
       link: {
         label: "useminimal.com",
-        href: "https://useminimal.com/",
+        href: "https://github.com/helios2003/Word-Rush",
+      },
+    },
+    {
+      title: "FastCask DB",
+      techStack: ["C++", "Catch2", "CMake"],
+      description:
+        "Implementation of Bitcask, a high-performance key-value store, in C++ for efficient data storage and retrieval",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://github.com/helios2003/FastCask-DB",
+      },
+    },
+    {
+      title: "Wall Wreckers",
+      techStack: ["C++", "SFML", "CMake"],
+      description:
+        "An Atari Breakout Game implemented in pure C++ using SFML which can be played in the browser",
+      logo: Minimal,
+      link: {
+        label: "useminimal.com",
+        href: "https://github.com/helios2003/Wall-Wreckers",
       },
     },
     {
@@ -168,7 +190,7 @@ export const RESUME_DATA = {
       logo: JarockiMeLogo,
       link: {
         label: "github.com",
-        href: "https://jarocki.me/",
+        href: "https://github.com/helios2003/Dino-Game",
       },
     },
   ],
