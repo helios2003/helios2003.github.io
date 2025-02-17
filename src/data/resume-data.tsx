@@ -57,14 +57,24 @@ export const RESUME_DATA = {
   ],
   work: [
     {
+      company: "Zeal AI",
+      link: "https://hellozeal.ai/",
+      badges: ["San Francisco, USA (Remote)"],
+      title: "Software Engineering Intern",
+      logo: JojoMobileLogo,
+      start: "Dec 2024",
+      end: "Present",
+      description: "• Scraped multiple American websites hosting different events and enhanced the RAG enabling accurate responses and information display.\n• Handling the migration of the frontend (40,000+ lines of code) from React to NextJS improving performance \n• Tech Stack: Selenium, PostgreSQL, NextJS."
+    },
+    {
       company: "MACS-G Solutions",
       link: "https://www.macs-g.com",
       badges: ["Dubai, UAE (Remote)"],
       title: "Full Stack Developer",
       logo: JojoMobileLogo,
       start: "Mar 2024",
-      end: "Present",
-      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Finetuned Retina-Net model which provides 95% accuracy using 90% lesser training samples compared to other models and created a ML pipeline for batch processing the data. \n• Helped in building a mechanism where the user can upload, annotate, train and infer directly from the browser. \n• Tech Stack: FastAPI, React, AWS, MongoDB."
+      end: "Nov 2024",
+      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Added the mechanism to fine-tune YOLOv7 and RetinaNet object detection models and developed a ML pipeline for batch processing of the video and image data \n• Helped in building a mechanism where the user can upload, annotate, train and infer directly from the browser. \n• Tech Stack: FastAPI, React, Tensorflow, MongoDB."
     },
     {
       company: "Google Summer of Code - Postman",
