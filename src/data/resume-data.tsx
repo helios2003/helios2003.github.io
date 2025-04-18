@@ -63,8 +63,8 @@ export const RESUME_DATA = {
       title: "Software Engineering Intern",
       logo: JojoMobileLogo,
       start: "Dec 2024",
-      end: "Present",
-      description: "• Scraped multiple American websites hosting different events and enhanced the RAG enabling accurate responses and information display.\n• Handling the migration of the frontend (40,000+ lines of code) from React to NextJS improving performance \n• Tech Stack: Selenium, PostgreSQL, NextJS."
+      end: "Mar 2025",
+      description: "• Scraped multiple US websites and enhanced the RAG enabling accurate responses and information display.\n• Handled the migration of the frontend (20K+ lines of code) from React to NextJS improving performance \n• Developed key customer-facing features such as restaurant proximity on map, shortlisting of restaurants, and social media cards, resulting in increased user engagement \n• Tech Stack: NextJS, FastAPI, Selenium, PostgreSQL"
     },
     {
       company: "MACS-G Solutions",
@@ -73,8 +73,8 @@ export const RESUME_DATA = {
       title: "Full Stack Developer",
       logo: JojoMobileLogo,
       start: "Mar 2024",
-      end: "Nov 2024",
-      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly.\n• Added the mechanism to fine-tune YOLOv7 and RetinaNet object detection models and developed a ML pipeline for batch processing of the video and image data \n• Helped in building a mechanism where the user can upload, annotate, train and infer directly from the browser. \n• Tech Stack: FastAPI, React, Tensorflow, MongoDB."
+      end: "Dec 2024",
+      description: "• Designed a webcam monitoring system that will identify the violations of safety precautions by workers in petrochemical factories and report, log them accordingly \n• Added the mechanism to fine-tune YOLOv7 and RetinaNet object detection models and developed a ML pipeline for batch processing of the video and image data \n• Helped in building a mechanism where the user can upload, annotate, train and infer directly from the browser \n• Tech Stack: FastAPI, React, Tensorflow, MongoDB, Pytest"
     },
     {
       company: "Google Summer of Code - Postman",
@@ -85,7 +85,7 @@ export const RESUME_DATA = {
       start: "Jun 2024",
       end: "Sep 2024",
       description:
-      "• Automated generation of custom Open Graph images and tags for AsyncAPI studio enhancing user experience. \n• Utilized SSR, Edge runtime and CDNs to achieve sub 5 second latency for Open Graph crawlers.\n• Wrote unit tests for the feature added and made fixes to the testing pipeline of the repository. \n• Merged more than 10 pull requests and committed more than 1000 lines of code to production.\n• Tech Stack: NextJS, AsyncAPI, Vercel, Jest."
+      "• Automated generation of custom Open Graph images and tags for AsyncAPI studio enhancing user experience \n• Utilized SSR, Edge runtime and CDNs to achieve sub 5 second latency for Open Graph crawlers \n• Wrote unit tests for the feature added and made fixes to the testing pipeline of the repository \n• Merged more than 10 pull requests and committed more than 1000 lines of code to production \n• Tech Stack: NextJS, AsyncAPI, Vercel, Jest"
     },
     {
       company: "Turing Bell",
@@ -95,7 +95,7 @@ export const RESUME_DATA = {
       logo: NSNLogo,
       start: "Sep 2023",
       end: "Oct 2023",
-      description: "• Facilitated the development of the conversation summarization module utilizing the GPT-3.5 and Langchain, aiding in evaluating the efficacy of the AI Sales Assistant and improving response accuracy for user queries. \n• Contributed to the frontend by building the website’s navigation system in React.\n• Tech Stack: Langchain (Python), React."
+      description: "• Facilitated the development of the conversation summarization module utilizing the GPT-3.5 and Langchain, aiding in evaluating the efficacy of the AI Sales Assistant and improving response accuracy for user queries \n• Contributed to the frontend by building the website’s navigation system in React.\n• Tech Stack: Langchain (Python), React"
     },
   ],
 
